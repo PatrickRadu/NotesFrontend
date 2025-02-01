@@ -2,7 +2,7 @@
 import { useEffect,useState } from 'react'
 import './App.css'
 import Notes from './components/Notes/Notes'
-const baseUrl = 'http://localhost:3001/api/notes'
+const baseUrl = '/api/notes'
 import axios from 'axios'
 function App() {
 

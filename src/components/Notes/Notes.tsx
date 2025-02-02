@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Note from "./Note";
 import axios from "axios";
-const baseUrl = 'http://localhost:3001/api/notes'
+const baseUrl = '/api/notes'
 interface NotesProps {
   notes?: any;
 }
